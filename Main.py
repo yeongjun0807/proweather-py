@@ -21,7 +21,7 @@ data['posts'].append({
 print(data)
 
 createFolder("Json")
-FileOpen = open("test.txt", "w")
+FileOpen = open("file.txt", "w")
 FileOpen.write("151515151")
 FileOpen.close()
 print('dfd')
