@@ -24,7 +24,7 @@ createFolder("Json")
 FileOpen = open("test.txt", "w")
 FileOpen.write("151515151")
 FileOpen.close()
-
+print('dfd')
 #FileOpen = open("Json/test.json", "w")
 #dump(data, FileOpen)
 #FileOpen.close()
