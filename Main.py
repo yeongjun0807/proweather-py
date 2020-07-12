@@ -21,7 +21,10 @@ data['posts'].append({
 print(data)
 
 createFolder("Json")
-
-FileOpen = open("Json/test.json", "w")
-dump(data, FileOpen)
+FileOpen = open("test.txt", "w")
+FileOpen.write("151515151")
 FileOpen.close()
+
+#FileOpen = open("Json/test.json", "w")
+#dump(data, FileOpen)
+#FileOpen.close()
